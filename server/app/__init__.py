@@ -15,6 +15,7 @@ def create_app():
     app.config['SQLALCHEMY_RECORD_QUERIES'] = True
     app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
     app.config['JWT_EXPIRATION_DELTA'] = timedelta(days=7)
+    app.config['JWT_AUTH_URL_RULE'] = '/login'
 
     db.init_app(app)
     jwt.init_app(app)

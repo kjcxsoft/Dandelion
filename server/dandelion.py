@@ -16,6 +16,7 @@ if __name__ == '__main__':
         print('Init success!')
 
 
+    db.create_all()
     manager.add_command('shell', Shell(make_context=make_shell_context))
     manager.add_command('init', Command(func=init))
 
