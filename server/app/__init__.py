@@ -3,7 +3,7 @@ from datetime import timedelta
 
 from flask import Flask
 
-from app.models import db, jwt, User
+from app.models import db, jwt
 
 
 def create_app():

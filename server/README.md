@@ -5,6 +5,10 @@ Dandelion 后端 API 说明，后端只做数据中转。同一用户可以重�
 
 安卓在开发时需要确保 API 地址可动态设置，即可做到服务器随用随开，不用就停。
 
+## 测试用服务器
+
+https://dandelion.xlui.app
+
 ## 1. 注册
 
 `/register`
